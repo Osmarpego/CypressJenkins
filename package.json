@@ -1,0 +1,23 @@
+{
+  "name": "cypress-dashboard",
+  "version": "1.0.0",
+  "description": "Cypress with dasboard service",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "cy:run:electron": "cypress run --browser electron",
+    "cy:run-dashboard": "npx cypress run --record --key 299f14ed-1061-486a-9070-478bc0c7a63b"
+  },
+  "keywords": [
+    "cypress",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.3",
+    "prettier": "^3.3.3"
+  }
+}
